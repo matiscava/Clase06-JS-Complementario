@@ -8,7 +8,7 @@ class Sujeto{
         this.altura=altura;
     }
     datos(){
-        console.log(this.nombre+this.apellido+" mide "+(parseFloat(this.altura)/100).toFixed(2)+" mts");
+        console.log(this.nombre+" "+this.apellido+" mide "+(parseFloat(this.altura)/100).toFixed(2)+" mts");
     }
 }
 function medida(numero){
